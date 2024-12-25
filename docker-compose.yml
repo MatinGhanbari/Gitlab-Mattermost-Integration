@@ -1,0 +1,28 @@
+name: gitlab-integration
+
+services:
+  postgres:
+    image: postgres:17.1
+    container_name: gitlab-mattermost-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: POSTGRESUSER
+      POSTGRES_PASSWORD: POSTGRESPASS
+      POSTGRES_DB: postgres
+      PGDATA: /var/lib/postgresql/data/dbfiles/
+    ports:
+      - "0.0.0.0:5032:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: gitlab-mattermost-app
+    restart: always
+    ports:
+      - "0.0.0.0:5010:5010"
+    volumes:
+      - .:/usr/src/app
+
+volumes:
+  pgdata:
