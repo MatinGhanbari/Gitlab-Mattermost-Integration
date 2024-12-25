@@ -18,7 +18,7 @@ The automatic integration bot to send gitlab hook updates to the mattermost chan
 
 Push Event Test | Pipeline Event
 --- | ---
-![](https://raw.githubusercontent.com/MatinGhanbari/Gitlab-Mattermost-Integration/refs/heads/main/assets/images/image-1.png) | ![](https://raw.githubusercontent.com/MatinGhanbari/Gitlab-Mattermost-Integration/refs/heads/main/assets/images/image-2.png)
+![](https://raw.githubusercontent.com/MatinGhanbari/Gitlab-Mattermost-Integration/refs/heads/main/assets/images/image-1.png) | ![](https://raw.githubusercontent.com/MatinGhanbari/Gitlab-Mattermost-Integration/refs/heads/main/assets/images/image-3.png)
 
 # Contributing
 Pull requests are welcome. For changes, please open an issue first to discuss what you would like to change.
