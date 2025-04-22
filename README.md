@@ -22,3 +22,7 @@ Push Event Test | Pipeline Event
 
 ## ✍️ Contributing
 Pull requests are welcome. For changes, please open an issue first to discuss what you would like to change.
+
+## ♥️ Special Thanks To
+- [@Arash Sarhadi](https://www.linkedin.com/in/arash-sarhadi)
+- [@Mohammad Yousefian](https://github.com/MohammadYSF)
